@@ -1,8 +1,8 @@
-# Stealth Twilio SMS
+# Twilio SMS and Whatsapp Xip Kit Component
 
-The [Stealth](https://github.com/hellostealth/stealth) Twilio SMS driver adds the ability to build your bot using Twilio's SMS service.
+The [Xip Kit](https://github.com/xipkit/xip) Twilio SMS and Whatsapp component adds the ability to connect your bot to the Whatsapp and SMS platforms.
 
-[![Gem Version](https://badge.fury.io/rb/stealth-twilio.svg)](https://badge.fury.io/rb/stealth-twilio)
+[![Gem Version](https://badge.fury.io/rb/xip-twilio.svg)](https://badge.fury.io/rb/xip-twilio)
 
 ## Supported Reply Types
 

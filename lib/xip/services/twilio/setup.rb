@@ -1,9 +1,8 @@
-# coding: utf-8
 # frozen_string_literal: true
 
-require 'stealth/services/twilio/client'
+require 'xip/services/twilio/client'
 
-module Stealth
+module Xip
   module Services
     module Twilio
 
@@ -11,7 +10,7 @@ module Stealth
 
         class << self
           def trigger
-            Stealth::Logger.l(
+            Xip::Logger.l(
               topic: "twilio",
               message: "There is no setup needed!"
             )

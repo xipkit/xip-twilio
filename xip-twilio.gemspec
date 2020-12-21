@@ -3,16 +3,16 @@ $LOAD_PATH.push File.expand_path('../lib', __FILE__)
 version = File.read(File.join(File.dirname(__FILE__), 'VERSION')).strip
 
 Gem::Specification.new do |s|
-  s.name = 'stealth-twilio'
-  s.summary = 'Stealth Twilio SMS driver'
-  s.description = 'Twilio SMS driver for Stealth.'
-  s.homepage = 'https://github.com/hellostealth/stealth-twilio'
+  s.name = 'xip-twilio'
+  s.summary = 'Twilio SMS and Whatsapp Xip Kit component'
+  s.description = 'Twilio SMS and Whatsapp Xip Kit component.'
+  s.homepage = 'https://github.com/xipkit/xip-twilio'
   s.licenses = ['MIT']
   s.version = version
   s.author = 'Mauricio Gomes'
   s.email = 'mauricio@edge14.com'
 
-  s.add_dependency 'stealth', '>= 2.0.0.beta'
+  s.add_dependency 'xip', '>= 2.0.0.beta'
   s.add_dependency 'twilio-ruby', '~> 5.5'
 
   s.add_development_dependency 'rspec', '~> 3'

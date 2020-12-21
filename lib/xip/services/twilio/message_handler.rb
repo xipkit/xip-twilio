@@ -1,10 +1,9 @@
-# coding: utf-8
 # frozen_string_literal: true
 
-module Stealth
+module Xip
   module Services
     module Twilio
-      class MessageHandler < Stealth::Services::BaseMessageHandler
+      class MessageHandler < Xip::Services::BaseMessageHandler
         attr_reader :service_message, :params, :headers
 
         def initialize(params:, headers:)
@@ -13,7 +12,7 @@ module Stealth
         end
 
         def coordinate
-          Stealth::Services::HandleMessageJob.perform_async(
+          Xip::Services::HandleMessageJob.perform_async(
             'twilio',
             params,
             headers
