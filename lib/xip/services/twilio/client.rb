@@ -35,6 +35,11 @@ module Xip
           begin
             response = twilio_client.messages.create(reply)
           rescue ::Twilio::REST::RestError => e
+            Xip::Logger.l(
+              topic: "twilio",
+              message: "Error: #{e.message}"
+            )
+
             case e.message
             when /21610/ # Attempt to send to unsubscribed recipient
               raise Xip::Errors::UserOptOut
