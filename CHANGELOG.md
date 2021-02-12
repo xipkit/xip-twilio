@@ -1,3 +1,9 @@
+# 1.3.5
+
+## Bugfixes
+
+* Fixed a missing instance of Stealth
+
 # 1.3.4
 
 ## Enahncements
@@ -6,4 +12,4 @@
 
 # 1.3.3
 
-* Renamed prohject to xip-twilio
+* Renamed project to xip-twilio
