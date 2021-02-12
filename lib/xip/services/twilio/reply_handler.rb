@@ -86,7 +86,7 @@ module Xip
 
           def format_response(response)
             sender_info = {
-              from: Stealth.config.twilio.from_phone,
+              from: Xip.config.twilio.from_phone,
               to: recipient_id
             }
             response.merge(sender_info)
