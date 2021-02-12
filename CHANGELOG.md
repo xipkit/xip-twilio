@@ -1,3 +1,9 @@
+# 1.3.6
+
+## Enhancements
+
+* Twilio errors now log their full error to logs to assist with debugging.
+
 # 1.3.5
 
 ## Bugfixes
@@ -6,7 +12,7 @@
 
 # 1.3.4
 
-## Enahncements
+## Enhancements
 
 * Bumped Nokogiri to 1.11.0
 
